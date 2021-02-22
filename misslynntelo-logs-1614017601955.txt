@@ -1,0 +1,260 @@
+2021-02-22T17:57:43.955167+00:00 app[web.1]: 2021-02-22 17:57:43,955 - pyrogram.session.session - INFO - Device: CPython 3.8.6 - Pyrogram 1.1.13
+2021-02-22T17:57:43.955294+00:00 app[web.1]: 2021-02-22 17:57:43,955 - pyrogram.session.session - INFO - System: Linux 4.4.0-1083-aws (EN)
+2021-02-22T17:57:43.955422+00:00 app[web.1]: 2021-02-22 17:57:43,955 - pyrogram.session.session - INFO - Session started
+2021-02-22T17:57:43.955681+00:00 app[web.1]: 2021-02-22 17:57:43,955 - pyrogram.session.session - INFO - PingTask started
+2021-02-22T17:57:44.488094+00:00 app[web.1]: 2021-02-22 17:57:44,487 - pyrogram.dispatcher - INFO - Started 12 HandlerTasks
+2021-02-22T17:57:44.493470+00:00 app[web.1]: 2021-02-22 17:57:44,493 - pyrogram.syncer - INFO - Synced "senkuPyro" in 5.16796 ms
+2021-02-22T17:57:44.829022+00:00 app[web.1]: 2021-02-22 17:57:44,828 - SaitamaRobot - WARNING - Chat not found
+2021-02-22T17:57:44.829522+00:00 app[web.1]: 2021-02-22 17:57:44,829 - SaitamaRobot - INFO - Using long polling.
+2021-02-22T17:58:01.528369+00:00 app[api]: Scaled to web@1:Free worker@1:Free by user lalbiakdika31@gmail.com
+2021-02-22T17:58:04.501476+00:00 app[web.1]: 2021-02-22 17:58:04,501 - pyrogram.syncer - INFO - Synced "senkuPyro" in 6.30474 ms
+2021-02-22T17:58:14.108308+00:00 heroku[worker.1]: Starting process with command `python3 -m SaitamaRobot`
+2021-02-22T17:58:14.772946+00:00 heroku[worker.1]: State changed from starting to up
+2021-02-22T17:58:19.142604+00:00 app[worker.1]: 2021-02-22 17:58:19,142 - SaitamaRobot - WARNING - SpamWatch API key missing! recheck your config.
+2021-02-22T17:58:19.206221+00:00 app[worker.1]: 2021-02-22 17:58:19,203 - SaitamaRobot - INFO - Not loading: ['translation']
+2021-02-22T17:58:19.206223+00:00 app[worker.1]: 2021-02-22 17:58:19,204 - SaitamaRobot - INFO - Modules to load: ['wallpaper', 'sed', 'disasters', 'thonkify_dict', 'users', 'bans', 'currency_converter', 'admin', 'locks', 'remote_cmds', 'anime', 'shell', 'gtranslator', 'paste', 'whatanime', 'ud', 'chatbot', 'muting', 'log_channel', 'stickers', 'warns', 'global_bans', 'callback', 'reactions', 'songs', 'cleaner', 'backups', 'misc', 'image_reverse_search', 'tts', 'plet', 'gsearch', 'rules', 'zombies', 'purge', 'disable', 'ping', 'approval', 'rss', 'reporting', 'debug', 'dev', 'get_common_chats', 'whois', 'cust_filters', 'lyrics', 'afk', 'dbcleanup', 'gettime', 'welcome', 'wiki', 'fun_strings', 'userinfo', 'antiflood', 'qoutly', 'speed_test', 'notes', 'eval', 'blacklistusers', 'blacklist_stickers', 'feds', 'fun', 'modules', 'blacklist', 'stt', 'math', 'connection']
+2021-02-22T17:58:22.784180+00:00 app[worker.1]: Requirement already satisfied: pip in ./.heroku/python/lib/python3.8/site-packages (20.1.1)
+2021-02-22T17:58:22.925947+00:00 app[worker.1]: Collecting install
+2021-02-22T17:58:22.974097+00:00 app[worker.1]:   Downloading install-1.3.4-py3-none-any.whl (3.1 kB)
+2021-02-22T17:58:23.243407+00:00 app[worker.1]: Collecting youtube-search-python
+2021-02-22T17:58:23.255590+00:00 app[worker.1]:   Downloading youtube_search_python-1.4.0-py3-none-any.whl (50 kB)
+2021-02-22T17:58:23.515862+00:00 app[worker.1]: Collecting httpx
+2021-02-22T17:58:23.525222+00:00 app[worker.1]:   Downloading httpx-0.16.1-py3-none-any.whl (65 kB)
+2021-02-22T17:58:23.708689+00:00 app[worker.1]: Collecting sniffio
+2021-02-22T17:58:23.715170+00:00 app[worker.1]:   Downloading sniffio-1.2.0-py3-none-any.whl (10 kB)
+2021-02-22T17:58:24.200192+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2021-02-22T17:58:24.242808+00:00 heroku[web.1]: Stopping process with SIGKILL
+2021-02-22T17:58:24.030424+00:00 app[worker.1]: Collecting httpcore==0.12.*
+2021-02-22T17:58:24.053626+00:00 app[worker.1]:   Downloading httpcore-0.12.3-py3-none-any.whl (55 kB)
+2021-02-22T17:58:24.312528+00:00 heroku[web.1]: Process exited with status 137
+2021-02-22T17:58:24.379193+00:00 heroku[web.1]: State changed from starting to crashed
+2021-02-22T17:58:24.385315+00:00 heroku[web.1]: State changed from crashed to starting
+2021-02-22T17:58:24.330677+00:00 app[worker.1]: Collecting rfc3986[idna2008]<2,>=1.3
+2021-02-22T17:58:24.339790+00:00 app[worker.1]:   Downloading rfc3986-1.4.0-py2.py3-none-any.whl (31 kB)
+2021-02-22T17:58:24.458108+00:00 app[worker.1]: Requirement already satisfied: certifi in ./.heroku/python/lib/python3.8/site-packages (from httpx->youtube-search-python) (2020.12.5)
+2021-02-22T17:58:24.549256+00:00 app[worker.1]: Collecting h11==0.*
+2021-02-22T17:58:24.559124+00:00 app[worker.1]:   Downloading h11-0.12.0-py3-none-any.whl (54 kB)
+2021-02-22T17:58:24.666606+00:00 app[worker.1]: Requirement already satisfied: idna; extra == "idna2008" in ./.heroku/python/lib/python3.8/site-packages (from rfc3986[idna2008]<2,>=1.3->httpx->youtube-search-python) (2.10)
+2021-02-22T17:58:25.766831+00:00 app[worker.1]: Installing collected packages: install, sniffio, h11, httpcore, rfc3986, httpx, youtube-search-python
+2021-02-22T17:58:27.208383+00:00 app[worker.1]: Successfully installed h11-0.12.0 httpcore-0.12.3 httpx-0.16.1 install-1.3.4 rfc3986-1.4.0 sniffio-1.2.0 youtube-search-python-1.4.0
+2021-02-22T17:58:27.960162+00:00 app[worker.1]: WARNING: You are using pip version 20.1.1; however, version 21.0.1 is available.
+2021-02-22T17:58:27.960199+00:00 app[worker.1]: You should consider upgrading via the '/app/.heroku/python/bin/python -m pip install --upgrade pip' command.
+2021-02-22T17:58:29.450133+00:00 app[worker.1]: 2021-02-22 17:58:29,446 - SaitamaRobot - INFO - Successfully loaded modules: ['wallpaper', 'sed', 'disasters', 'thonkify_dict', 'users', 'bans', 'currency_converter', 'admin', 'locks', 'remote_cmds', 'anime', 'shell', 'gtranslator', 'paste', 'whatanime', 'ud', 'chatbot', 'muting', 'log_channel', 'stickers', 'warns', 'global_bans', 'callback', 'reactions', 'songs', 'cleaner', 'backups', 'misc', 'image_reverse_search', 'tts', 'plet', 'gsearch', 'rules', 'zombies', 'purge', 'disable', 'ping', 'approval', 'rss', 'reporting', 'debug', 'dev', 'get_common_chats', 'whois', 'cust_filters', 'lyrics', 'afk', 'dbcleanup', 'gettime', 'welcome', 'wiki', 'fun_strings', 'userinfo', 'antiflood', 'qoutly', 'speed_test', 'notes', 'eval', 'blacklistusers', 'blacklist_stickers', 'feds', 'fun', 'modules', 'blacklist', 'stt', 'math', 'connection']
+2021-02-22T17:58:29.450528+00:00 app[worker.1]: 2021-02-22 17:58:29,449 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2021-02-22T17:58:30.580370+00:00 app[worker.1]: 2021-02-22 17:58:30,580 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2021-02-22T17:58:31.130059+00:00 app[worker.1]: 2021-02-22 17:58:31,125 - telethon.client.users - INFO - Phone migrated to 5
+2021-02-22T17:58:31.130662+00:00 app[worker.1]: 2021-02-22 17:58:31,130 - telethon.client.telegrambaseclient - INFO - Reconnecting to new data center 5
+2021-02-22T17:58:31.247740+00:00 app[worker.1]: 2021-02-22 17:58:31,243 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2021-02-22T17:58:31.248806+00:00 app[worker.1]: 2021-02-22 17:58:31,248 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2021-02-22T17:58:31.249393+00:00 app[worker.1]: 2021-02-22 17:58:31,249 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.181:443/TcpFull...
+2021-02-22T17:58:32.884956+00:00 app[worker.1]: 2021-02-22 17:58:32,884 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.181:443/TcpFull complete!
+2021-02-22T17:58:34.069942+00:00 heroku[web.1]: Starting process with command `python3 -m SaitamaRobot`
+2021-02-22T17:58:35.283950+00:00 app[worker.1]: 2021-02-22 17:58:35,283 - pyrogram.session.auth - INFO - Start creating a new auth key on DC2
+2021-02-22T17:58:35.286153+00:00 app[worker.1]: 2021-02-22 17:58:35,285 - pyrogram.connection.connection - INFO - Connecting...
+2021-02-22T17:58:35.368553+00:00 app[worker.1]: 2021-02-22 17:58:35,368 - pyrogram.connection.connection - INFO - Connected! Production DC2 - IPv4 - TCPAbridgedO
+2021-02-22T17:58:36.243585+00:00 app[worker.1]: 2021-02-22 17:58:36,243 - pyrogram.session.auth - INFO - Done auth key exchange: DhGenOk
+2021-02-22T17:58:36.243806+00:00 app[worker.1]: 2021-02-22 17:58:36,243 - pyrogram.connection.connection - INFO - Disconnected
+2021-02-22T17:58:37.887312+00:00 app[worker.1]: Pyrogram v1.1.13, Copyright (C) 2017-2021 Dan <https://github.com/delivrance>
+2021-02-22T17:58:37.887328+00:00 app[worker.1]: Licensed under the terms of the GNU Lesser General Public License v3 or later (LGPLv3+)
+2021-02-22T17:58:37.887329+00:00 app[worker.1]: 
+2021-02-22T17:58:37.888021+00:00 app[worker.1]: 2021-02-22 17:58:37,887 - pyrogram.connection.connection - INFO - Connecting...
+2021-02-22T17:58:37.969568+00:00 app[worker.1]: 2021-02-22 17:58:37,969 - pyrogram.connection.connection - INFO - Connected! Production DC2 - IPv4 - TCPAbridgedO
+2021-02-22T17:58:37.970248+00:00 app[worker.1]: 2021-02-22 17:58:37,970 - pyrogram.session.session - INFO - NetworkTask started
+2021-02-22T17:58:38.181346+00:00 app[worker.1]: 2021-02-22 17:58:38,181 - pyrogram.session.internals.msg_id - INFO - Time synced: 2021-02-22 17:58:38.130196 UTC
+2021-02-22T17:58:38.270326+00:00 app[worker.1]: 2021-02-22 17:58:38,270 - pyrogram.session.session - INFO - NextSaltTask started
+2021-02-22T17:58:38.274469+00:00 app[worker.1]: 2021-02-22 17:58:38,273 - pyrogram.session.session - INFO - Next salt in 44m 56s (at 2021-02-22 18:43:35)
+2021-02-22T17:58:38.385269+00:00 app[worker.1]: 2021-02-22 17:58:38,384 - pyrogram.session.session - INFO - Session initialized: Layer 122
+2021-02-22T17:58:38.385461+00:00 app[worker.1]: 2021-02-22 17:58:38,385 - pyrogram.session.session - INFO - Device: CPython 3.8.6 - Pyrogram 1.1.13
+2021-02-22T17:58:38.385673+00:00 app[worker.1]: 2021-02-22 17:58:38,385 - pyrogram.session.session - INFO - System: Linux 4.4.0-1085-aws (EN)
+2021-02-22T17:58:38.385895+00:00 app[worker.1]: 2021-02-22 17:58:38,385 - pyrogram.session.session - INFO - Session started
+2021-02-22T17:58:38.393180+00:00 app[worker.1]: 2021-02-22 17:58:38,392 - pyrogram.session.session - INFO - PingTask started
+2021-02-22T17:58:38.506618+00:00 app[worker.1]: 2021-02-22 17:58:38,506 - pyrogram.session.session - INFO - PingTask stopped
+2021-02-22T17:58:38.506841+00:00 app[worker.1]: 2021-02-22 17:58:38,506 - pyrogram.session.session - INFO - NextSaltTask stopped
+2021-02-22T17:58:38.507148+00:00 app[worker.1]: 2021-02-22 17:58:38,506 - pyrogram.connection.connection - INFO - Disconnected
+2021-02-22T17:58:38.507652+00:00 app[worker.1]: 2021-02-22 17:58:38,507 - pyrogram.session.session - INFO - NetworkTask stopped
+2021-02-22T17:58:38.507944+00:00 app[worker.1]: 2021-02-22 17:58:38,507 - pyrogram.session.session - INFO - Session stopped
+2021-02-22T17:58:38.657589+00:00 app[web.1]: 2021-02-22 17:58:38,657 - SaitamaRobot - WARNING - SpamWatch API key missing! recheck your config.
+2021-02-22T17:58:38.685211+00:00 app[web.1]: 2021-02-22 17:58:38,685 - SaitamaRobot - INFO - Not loading: ['translation']
+2021-02-22T17:58:38.685451+00:00 app[web.1]: 2021-02-22 17:58:38,685 - SaitamaRobot - INFO - Modules to load: ['afk', 'backups', 'dev', 'gettime', 'math', 'blacklist', 'admin', 'welcome', 'blacklist_stickers', 'zombies', 'stickers', 'tts', 'ud', 'whois', 'notes', 'image_reverse_search', 'stt', 'muting', 'wiki', 'qoutly', 'gsearch', 'eval', 'approval', 'cust_filters', 'songs', 'paste', 'chatbot', 'disable', 'fun_strings', 'blacklistusers', 'rules', 'debug', 'purge', 'shell', 'locks', 'whatanime', 'disasters', 'reporting', 'plet', 'ping', 'reactions', 'bans', 'get_common_chats', 'dbcleanup', 'lyrics', 'anime', 'global_bans', 'gtranslator', 'modules', 'log_channel', 'users', 'speed_test', 'cleaner', 'connection', 'rss', 'thonkify_dict', 'remote_cmds', 'callback', 'fun', 'currency_converter', 'feds', 'antiflood', 'wallpaper', 'warns', 'userinfo', 'sed', 'misc']
+2021-02-22T17:58:40.023506+00:00 app[worker.1]: 2021-02-22 17:58:40,023 - pyrogram.session.auth - INFO - Start creating a new auth key on DC5
+2021-02-22T17:58:40.023773+00:00 app[worker.1]: 2021-02-22 17:58:40,023 - pyrogram.connection.connection - INFO - Connecting...
+2021-02-22T17:58:40.272641+00:00 app[worker.1]: 2021-02-22 17:58:40,272 - pyrogram.connection.connection - INFO - Connected! Production DC5 - IPv4 - TCPAbridgedO
+2021-02-22T17:58:41.422568+00:00 app[web.1]: Requirement already satisfied: pip in ./.heroku/python/lib/python3.8/site-packages (20.1.1)
+2021-02-22T17:58:42.178601+00:00 app[web.1]: Collecting install
+2021-02-22T17:58:42.207328+00:00 app[web.1]:   Downloading install-1.3.4-py3-none-any.whl (3.1 kB)
+2021-02-22T17:58:42.416896+00:00 app[web.1]: Collecting youtube-search-python
+2021-02-22T17:58:42.422951+00:00 app[web.1]:   Downloading youtube_search_python-1.4.0-py3-none-any.whl (50 kB)
+2021-02-22T17:58:42.197963+00:00 app[worker.1]: 2021-02-22 17:58:42,197 - pyrogram.session.auth - INFO - Done auth key exchange: DhGenOk
+2021-02-22T17:58:42.198335+00:00 app[worker.1]: 2021-02-22 17:58:42,198 - pyrogram.connection.connection - INFO - Disconnected
+2021-02-22T17:58:42.579836+00:00 app[web.1]: Collecting httpx
+2021-02-22T17:58:42.585467+00:00 app[web.1]:   Downloading httpx-0.16.1-py3-none-any.whl (65 kB)
+2021-02-22T17:58:42.644153+00:00 app[web.1]: Requirement already satisfied: certifi in ./.heroku/python/lib/python3.8/site-packages (from httpx->youtube-search-python) (2020.12.5)
+2021-02-22T17:58:42.717183+00:00 app[web.1]: Collecting rfc3986[idna2008]<2,>=1.3
+2021-02-22T17:58:42.723984+00:00 app[web.1]:   Downloading rfc3986-1.4.0-py2.py3-none-any.whl (31 kB)
+2021-02-22T17:58:42.860774+00:00 app[web.1]: Collecting sniffio
+2021-02-22T17:58:42.871732+00:00 app[web.1]:   Downloading sniffio-1.2.0-py3-none-any.whl (10 kB)
+2021-02-22T17:58:42.992502+00:00 app[web.1]: Collecting httpcore==0.12.*
+2021-02-22T17:58:43.004542+00:00 app[web.1]:   Downloading httpcore-0.12.3-py3-none-any.whl (55 kB)
+2021-02-22T17:58:43.056790+00:00 app[web.1]: Requirement already satisfied: idna; extra == "idna2008" in ./.heroku/python/lib/python3.8/site-packages (from rfc3986[idna2008]<2,>=1.3->httpx->youtube-search-python) (2.10)
+2021-02-22T17:58:43.108047+00:00 app[web.1]: Collecting h11==0.*
+2021-02-22T17:58:43.133390+00:00 app[web.1]:   Downloading h11-0.12.0-py3-none-any.whl (54 kB)
+2021-02-22T17:58:43.199511+00:00 app[worker.1]: 2021-02-22 17:58:43,199 - pyrogram.connection.connection - INFO - Connecting...
+2021-02-22T17:58:43.444304+00:00 app[worker.1]: 2021-02-22 17:58:43,444 - pyrogram.connection.connection - INFO - Connected! Production DC5 - IPv4 - TCPAbridgedO
+2021-02-22T17:58:43.447233+00:00 app[worker.1]: 2021-02-22 17:58:43,447 - pyrogram.session.session - INFO - NetworkTask started
+2021-02-22T17:58:43.795218+00:00 app[web.1]: Installing collected packages: install, rfc3986, sniffio, h11, httpcore, httpx, youtube-search-python
+2021-02-22T17:58:44.222146+00:00 app[worker.1]: 2021-02-22 17:58:44,221 - pyrogram.session.session - INFO - NextSaltTask started
+2021-02-22T17:58:44.222394+00:00 app[worker.1]: 2021-02-22 17:58:44,222 - pyrogram.session.session - INFO - Next salt in 44m 56s (at 2021-02-22 18:43:41)
+2021-02-22T17:58:44.239640+00:00 app[web.1]: Successfully installed h11-0.12.0 httpcore-0.12.3 httpx-0.16.1 install-1.3.4 rfc3986-1.4.0 sniffio-1.2.0 youtube-search-python-1.4.0
+2021-02-22T17:58:44.485559+00:00 app[web.1]: WARNING: You are using pip version 20.1.1; however, version 21.0.1 is available.
+2021-02-22T17:58:44.485561+00:00 app[web.1]: You should consider upgrading via the '/app/.heroku/python/bin/python -m pip install --upgrade pip' command.
+2021-02-22T17:58:44.474583+00:00 app[worker.1]: 2021-02-22 17:58:44,474 - pyrogram.session.session - INFO - Session initialized: Layer 122
+2021-02-22T17:58:44.474681+00:00 app[worker.1]: 2021-02-22 17:58:44,474 - pyrogram.session.session - INFO - Device: CPython 3.8.6 - Pyrogram 1.1.13
+2021-02-22T17:58:44.474773+00:00 app[worker.1]: 2021-02-22 17:58:44,474 - pyrogram.session.session - INFO - System: Linux 4.4.0-1085-aws (EN)
+2021-02-22T17:58:44.474877+00:00 app[worker.1]: 2021-02-22 17:58:44,474 - pyrogram.session.session - INFO - Session started
+2021-02-22T17:58:44.475133+00:00 app[worker.1]: 2021-02-22 17:58:44,475 - pyrogram.session.session - INFO - PingTask started
+2021-02-22T17:58:45.002745+00:00 app[worker.1]: 2021-02-22 17:58:45,002 - pyrogram.dispatcher - INFO - Started 12 HandlerTasks
+2021-02-22T17:58:45.010705+00:00 app[worker.1]: 2021-02-22 17:58:45,010 - pyrogram.syncer - INFO - Synced "senkuPyro" in 7.67756 ms
+2021-02-22T17:58:45.125986+00:00 app[web.1]: 2021-02-22 17:58:45,125 - SaitamaRobot - INFO - Successfully loaded modules: ['afk', 'backups', 'dev', 'gettime', 'math', 'blacklist', 'admin', 'welcome', 'blacklist_stickers', 'zombies', 'stickers', 'tts', 'ud', 'whois', 'notes', 'image_reverse_search', 'stt', 'muting', 'wiki', 'qoutly', 'gsearch', 'eval', 'approval', 'cust_filters', 'songs', 'paste', 'chatbot', 'disable', 'fun_strings', 'blacklistusers', 'rules', 'debug', 'purge', 'shell', 'locks', 'whatanime', 'disasters', 'reporting', 'plet', 'ping', 'reactions', 'bans', 'get_common_chats', 'dbcleanup', 'lyrics', 'anime', 'global_bans', 'gtranslator', 'modules', 'log_channel', 'users', 'speed_test', 'cleaner', 'connection', 'rss', 'thonkify_dict', 'remote_cmds', 'callback', 'fun', 'currency_converter', 'feds', 'antiflood', 'wallpaper', 'warns', 'userinfo', 'sed', 'misc']
+2021-02-22T17:58:45.126580+00:00 app[web.1]: 2021-02-22 17:58:45,126 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2021-02-22T17:58:45.283645+00:00 app[worker.1]: 2021-02-22 17:58:45,283 - SaitamaRobot - WARNING - Chat not found
+2021-02-22T17:58:45.285201+00:00 app[worker.1]: 2021-02-22 17:58:45,285 - SaitamaRobot - INFO - Using long polling.
+2021-02-22T17:58:46.056578+00:00 app[web.1]: 2021-02-22 17:58:46,056 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2021-02-22T17:58:46.523481+00:00 app[web.1]: 2021-02-22 17:58:46,522 - telethon.client.users - INFO - Phone migrated to 5
+2021-02-22T17:58:46.523757+00:00 app[web.1]: 2021-02-22 17:58:46,523 - telethon.client.telegrambaseclient - INFO - Reconnecting to new data center 5
+2021-02-22T17:58:46.617703+00:00 app[web.1]: 2021-02-22 17:58:46,617 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2021-02-22T17:58:46.618676+00:00 app[web.1]: 2021-02-22 17:58:46,618 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2021-02-22T17:58:46.619159+00:00 app[web.1]: 2021-02-22 17:58:46,618 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.127:443/TcpFull...
+2021-02-22T17:58:47.985209+00:00 app[web.1]: 2021-02-22 17:58:47,984 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.127:443/TcpFull complete!
+2021-02-22T17:58:49.487371+00:00 app[web.1]: 2021-02-22 17:58:49,487 - pyrogram.session.auth - INFO - Start creating a new auth key on DC2
+2021-02-22T17:58:49.487748+00:00 app[web.1]: 2021-02-22 17:58:49,487 - pyrogram.connection.connection - INFO - Connecting...
+2021-02-22T17:58:49.569325+00:00 app[web.1]: 2021-02-22 17:58:49,569 - pyrogram.connection.connection - INFO - Connected! Production DC2 - IPv4 - TCPAbridgedO
+2021-02-22T17:58:50.334999+00:00 app[web.1]: 2021-02-22 17:58:50,334 - pyrogram.session.auth - INFO - Done auth key exchange: DhGenOk
+2021-02-22T17:58:50.335182+00:00 app[web.1]: 2021-02-22 17:58:50,335 - pyrogram.connection.connection - INFO - Disconnected
+2021-02-22T17:58:50.343984+00:00 app[web.1]: Pyrogram v1.1.13, Copyright (C) 2017-2021 Dan <https://github.com/delivrance>
+2021-02-22T17:58:50.344004+00:00 app[web.1]: Licensed under the terms of the GNU Lesser General Public License v3 or later (LGPLv3+)
+2021-02-22T17:58:50.344004+00:00 app[web.1]: 
+2021-02-22T17:58:50.344273+00:00 app[web.1]: 2021-02-22 17:58:50,344 - pyrogram.connection.connection - INFO - Connecting...
+2021-02-22T17:58:50.427232+00:00 app[web.1]: 2021-02-22 17:58:50,426 - pyrogram.connection.connection - INFO - Connected! Production DC2 - IPv4 - TCPAbridgedO
+2021-02-22T17:58:50.427777+00:00 app[web.1]: 2021-02-22 17:58:50,427 - pyrogram.session.session - INFO - NetworkTask started
+2021-02-22T17:58:50.630481+00:00 app[web.1]: 2021-02-22 17:58:50,630 - pyrogram.session.internals.msg_id - INFO - Time synced: 2021-02-22 17:58:50.588083 UTC
+2021-02-22T17:58:50.715422+00:00 app[web.1]: 2021-02-22 17:58:50,715 - pyrogram.session.session - INFO - NextSaltTask started
+2021-02-22T17:58:50.715599+00:00 app[web.1]: 2021-02-22 17:58:50,715 - pyrogram.session.session - INFO - Next salt in 44m 59s (at 2021-02-22 18:43:50)
+2021-02-22T17:58:50.868514+00:00 app[web.1]: 2021-02-22 17:58:50,868 - pyrogram.session.session - INFO - Session initialized: Layer 122
+2021-02-22T17:58:50.868524+00:00 app[web.1]: 2021-02-22 17:58:50,868 - pyrogram.session.session - INFO - Device: CPython 3.8.6 - Pyrogram 1.1.13
+2021-02-22T17:58:50.868633+00:00 app[web.1]: 2021-02-22 17:58:50,868 - pyrogram.session.session - INFO - System: Linux 4.4.0-1083-aws (EN)
+2021-02-22T17:58:50.868755+00:00 app[web.1]: 2021-02-22 17:58:50,868 - pyrogram.session.session - INFO - Session started
+2021-02-22T17:58:50.870200+00:00 app[web.1]: 2021-02-22 17:58:50,870 - pyrogram.session.session - INFO - PingTask started
+2021-02-22T17:58:51.035088+00:00 app[web.1]: 2021-02-22 17:58:51,034 - pyrogram.session.session - INFO - PingTask stopped
+2021-02-22T17:58:51.035267+00:00 app[web.1]: 2021-02-22 17:58:51,035 - pyrogram.session.session - INFO - NextSaltTask stopped
+2021-02-22T17:58:51.035704+00:00 app[web.1]: 2021-02-22 17:58:51,035 - pyrogram.connection.connection - INFO - Disconnected
+2021-02-22T17:58:51.036263+00:00 app[web.1]: 2021-02-22 17:58:51,036 - pyrogram.session.session - INFO - NetworkTask stopped
+2021-02-22T17:58:51.036676+00:00 app[web.1]: 2021-02-22 17:58:51,036 - pyrogram.session.session - INFO - Session stopped
+2021-02-22T17:58:51.048127+00:00 app[web.1]: 2021-02-22 17:58:51,047 - pyrogram.session.auth - INFO - Start creating a new auth key on DC5
+2021-02-22T17:58:51.048572+00:00 app[web.1]: 2021-02-22 17:58:51,048 - pyrogram.connection.connection - INFO - Connecting...
+2021-02-22T17:58:51.291973+00:00 app[web.1]: 2021-02-22 17:58:51,291 - pyrogram.connection.connection - INFO - Connected! Production DC5 - IPv4 - TCPAbridgedO
+2021-02-22T17:58:52.660643+00:00 app[web.1]: 2021-02-22 17:58:52,660 - pyrogram.session.auth - INFO - Done auth key exchange: DhGenOk
+2021-02-22T17:58:52.660865+00:00 app[web.1]: 2021-02-22 17:58:52,660 - pyrogram.connection.connection - INFO - Disconnected
+2021-02-22T17:58:52.672044+00:00 app[web.1]: 2021-02-22 17:58:52,671 - pyrogram.connection.connection - INFO - Connecting...
+2021-02-22T17:58:52.915586+00:00 app[web.1]: 2021-02-22 17:58:52,915 - pyrogram.connection.connection - INFO - Connected! Production DC5 - IPv4 - TCPAbridgedO
+2021-02-22T17:58:52.916080+00:00 app[web.1]: 2021-02-22 17:58:52,915 - pyrogram.session.session - INFO - NetworkTask started
+2021-02-22T17:58:53.692219+00:00 app[web.1]: 2021-02-22 17:58:53,691 - pyrogram.session.session - INFO - NextSaltTask started
+2021-02-22T17:58:53.692668+00:00 app[web.1]: 2021-02-22 17:58:53,692 - pyrogram.session.session - INFO - Next salt in 44m 58s (at 2021-02-22 18:43:52)
+2021-02-22T17:58:53.955370+00:00 app[web.1]: 2021-02-22 17:58:53,955 - pyrogram.session.session - INFO - Session initialized: Layer 122
+2021-02-22T17:58:53.955732+00:00 app[web.1]: 2021-02-22 17:58:53,955 - pyrogram.session.session - INFO - Device: CPython 3.8.6 - Pyrogram 1.1.13
+2021-02-22T17:58:53.956015+00:00 app[web.1]: 2021-02-22 17:58:53,955 - pyrogram.session.session - INFO - System: Linux 4.4.0-1083-aws (EN)
+2021-02-22T17:58:53.956270+00:00 app[web.1]: 2021-02-22 17:58:53,956 - pyrogram.session.session - INFO - Session started
+2021-02-22T17:58:53.956666+00:00 app[web.1]: 2021-02-22 17:58:53,956 - pyrogram.session.session - INFO - PingTask started
+2021-02-22T17:58:54.494756+00:00 app[web.1]: 2021-02-22 17:58:54,494 - pyrogram.dispatcher - INFO - Started 12 HandlerTasks
+2021-02-22T17:58:54.499610+00:00 app[web.1]: 2021-02-22 17:58:54,499 - pyrogram.syncer - INFO - Synced "senkuPyro" in 4.62198 ms
+2021-02-22T17:58:54.772930+00:00 app[web.1]: 2021-02-22 17:58:54,772 - SaitamaRobot - WARNING - Chat not found
+2021-02-22T17:58:54.774291+00:00 app[web.1]: 2021-02-22 17:58:54,774 - SaitamaRobot - INFO - Using long polling.
+2021-02-22T17:58:56.035681+00:00 app[worker.1]: 2021-02-22 17:58:56,034 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-22T17:58:56.039723+00:00 app[worker.1]: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-22T17:59:00.119839+00:00 app[web.1]: 2021-02-22 17:59:00,119 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-22T17:59:00.120150+00:00 app[web.1]: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-22T17:59:01.207810+00:00 app[worker.1]: 2021-02-22 17:59:01,207 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-22T17:59:01.211583+00:00 app[worker.1]: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-22T17:59:05.576285+00:00 app[worker.1]: 2021-02-22 17:59:05,575 - pyrogram.syncer - INFO - Synced "senkuPyro" in 560.112 ms
+2021-02-22T17:59:05.798188+00:00 app[web.1]: 2021-02-22 17:59:05,797 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-22T17:59:05.798487+00:00 app[web.1]: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-22T17:59:07.384486+00:00 app[worker.1]: 2021-02-22 17:59:07,384 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-22T17:59:07.384612+00:00 app[worker.1]: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-22T17:59:12.725009+00:00 app[web.1]: 2021-02-22 17:59:12,724 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-22T17:59:12.725087+00:00 app[web.1]: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-22T17:59:14.506265+00:00 app[web.1]: 2021-02-22 17:59:14,506 - pyrogram.syncer - INFO - Synced "senkuPyro" in 5.07617 ms
+2021-02-22T17:59:15.061796+00:00 app[worker.1]: 2021-02-22 17:59:15,061 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-22T17:59:15.061918+00:00 app[worker.1]: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-22T17:59:18.526073+00:00 app[web.1]: 2021-02-22 17:59:18,525 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-22T17:59:18.526198+00:00 app[web.1]: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-22T17:59:21.997738+00:00 app[worker.1]: 2021-02-22 17:59:21,997 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-22T17:59:21.998052+00:00 app[worker.1]: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-22T17:59:25.599979+00:00 app[worker.1]: 2021-02-22 17:59:25,599 - pyrogram.syncer - INFO - Synced "senkuPyro" in 17.7937 ms
+2021-02-22T17:59:27.147701+00:00 app[web.1]: 2021-02-22 17:59:27,147 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-22T17:59:27.147807+00:00 app[web.1]: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-22T17:59:32.297661+00:00 app[worker.1]: 2021-02-22 17:59:32,297 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-22T17:59:32.297889+00:00 app[worker.1]: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-02-22T17:59:34.740000+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2021-02-22T17:59:34.780712+00:00 heroku[web.1]: Stopping process with SIGKILL
+2021-02-22T17:59:34.697014+00:00 app[web.1]: 2021-02-22 17:59:34,696 - pyrogram.syncer - INFO - Synced "senkuPyro" in 189.156 ms
+2021-02-22T17:59:34.887992+00:00 heroku[web.1]: Process exited with status 137
+2021-02-22T17:59:34.952296+00:00 heroku[web.1]: State changed from starting to crashed
+2021-02-22T17:59:45.610066+00:00 app[worker.1]: 2021-02-22 17:59:45,609 - pyrogram.syncer - INFO - Synced "senkuPyro" in 8.02636 ms
+2021-02-22T18:00:05.637690+00:00 app[worker.1]: 2021-02-22 18:00:05,637 - pyrogram.syncer - INFO - Synced "senkuPyro" in 24.3733 ms
+2021-02-22T18:00:27.262528+00:00 app[worker.1]: 2021-02-22 18:00:27,262 - pyrogram.syncer - INFO - Synced "senkuPyro" in 1620.89 ms
+2021-02-22T18:00:47.298639+00:00 app[worker.1]: 2021-02-22 18:00:47,298 - pyrogram.syncer - INFO - Synced "senkuPyro" in 31.7566 ms
+2021-02-22T18:01:08.125833+00:00 app[worker.1]: 2021-02-22 18:01:08,125 - pyrogram.syncer - INFO - Synced "senkuPyro" in 821.75 ms
+2021-02-22T18:01:28.135659+00:00 app[worker.1]: 2021-02-22 18:01:28,135 - pyrogram.syncer - INFO - Synced "senkuPyro" in 7.40576 ms
+2021-02-22T18:01:48.148942+00:00 app[worker.1]: 2021-02-22 18:01:48,148 - pyrogram.syncer - INFO - Synced "senkuPyro" in 8.85153 ms
+2021-02-22T18:02:08.174656+00:00 app[worker.1]: 2021-02-22 18:02:08,174 - pyrogram.syncer - INFO - Synced "senkuPyro" in 22.4841 ms
+2021-02-22T18:02:28.187907+00:00 app[worker.1]: 2021-02-22 18:02:28,187 - pyrogram.syncer - INFO - Synced "senkuPyro" in 7.75838 ms
+2021-02-22T18:02:48.203292+00:00 app[worker.1]: 2021-02-22 18:02:48,202 - pyrogram.syncer - INFO - Synced "senkuPyro" in 10.5493 ms
+2021-02-22T18:03:08.221745+00:00 app[worker.1]: 2021-02-22 18:03:08,221 - pyrogram.syncer - INFO - Synced "senkuPyro" in 16.2992 ms
+2021-02-22T18:03:28.251034+00:00 app[worker.1]: 2021-02-22 18:03:28,250 - pyrogram.syncer - INFO - Synced "senkuPyro" in 26.3326 ms
+2021-02-22T18:03:48.262812+00:00 app[worker.1]: 2021-02-22 18:03:48,262 - pyrogram.syncer - INFO - Synced "senkuPyro" in 6.83141 ms
+2021-02-22T18:04:06.585220+00:00 app[worker.1]: 1307180623
+2021-02-22T18:04:08.420296+00:00 app[worker.1]: 2021-02-22 18:04:08,418 - pyrogram.syncer - INFO - Synced "senkuPyro" in 150.848 ms
+2021-02-22T18:04:25.874860+00:00 app[worker.1]: 1307180623
+2021-02-22T18:04:28.435709+00:00 app[worker.1]: 2021-02-22 18:04:28,435 - pyrogram.syncer - INFO - Synced "senkuPyro" in 13.7405 ms
+2021-02-22T18:04:48.447295+00:00 app[worker.1]: 2021-02-22 18:04:48,446 - pyrogram.syncer - INFO - Synced "senkuPyro" in 8.02779 ms
+2021-02-22T18:05:10.458252+00:00 app[worker.1]: 2021-02-22 18:05:10,457 - pyrogram.syncer - INFO - Synced "senkuPyro" in 2007.64 ms
+2021-02-22T18:05:31.036425+00:00 app[worker.1]: 2021-02-22 18:05:31,036 - pyrogram.syncer - INFO - Synced "senkuPyro" in 571.455 ms
+2021-02-22T18:05:51.046433+00:00 app[worker.1]: 2021-02-22 18:05:51,046 - pyrogram.syncer - INFO - Synced "senkuPyro" in 6.43778 ms
+2021-02-22T18:06:11.066430+00:00 app[worker.1]: 2021-02-22 18:06:11,066 - pyrogram.syncer - INFO - Synced "senkuPyro" in 14.2365 ms
+2021-02-22T18:06:31.077628+00:00 app[worker.1]: 2021-02-22 18:06:31,077 - pyrogram.syncer - INFO - Synced "senkuPyro" in 5.68056 ms
+2021-02-22T18:06:51.083978+00:00 app[worker.1]: 2021-02-22 18:06:51,083 - pyrogram.syncer - INFO - Synced "senkuPyro" in 5.26214 ms
+2021-02-22T18:07:11.093458+00:00 app[worker.1]: 2021-02-22 18:07:11,093 - pyrogram.syncer - INFO - Synced "senkuPyro" in 5.39589 ms
+2021-02-22T18:07:31.127949+00:00 app[worker.1]: 2021-02-22 18:07:31,127 - pyrogram.syncer - INFO - Synced "senkuPyro" in 23.787 ms
+2021-02-22T18:07:51.742538+00:00 app[worker.1]: 2021-02-22 18:07:51,742 - pyrogram.syncer - INFO - Synced "senkuPyro" in 608.278 ms
+2021-02-22T18:08:13.756071+00:00 app[worker.1]: 2021-02-22 18:08:13,755 - pyrogram.syncer - INFO - Synced "senkuPyro" in 2007.82 ms
+2021-02-22T18:08:13.757054+00:00 app[worker.1]: 2021-02-22 18:08:13,756 - pyrogram.session.session - INFO - NetworkTask stopped
+2021-02-22T18:08:13.757805+00:00 app[worker.1]: 2021-02-22 18:08:13,757 - pyrogram.session.session - INFO - NextSaltTask stopped
+2021-02-22T18:08:13.758171+00:00 app[worker.1]: 2021-02-22 18:08:13,757 - pyrogram.session.session - INFO - PingTask stopped
+2021-02-22T18:08:13.758446+00:00 app[worker.1]: 2021-02-22 18:08:13,758 - pyrogram.connection.connection - INFO - Disconnected
+2021-02-22T18:08:13.758613+00:00 app[worker.1]: 2021-02-22 18:08:13,758 - pyrogram.session.session - INFO - Session stopped
+2021-02-22T18:08:13.758920+00:00 app[worker.1]: 2021-02-22 18:08:13,758 - pyrogram.connection.connection - INFO - Connecting...
+2021-02-22T18:08:23.767852+00:00 app[worker.1]: 2021-02-22 18:08:23,767 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: timed out
+2021-02-22T18:08:24.773494+00:00 app[worker.1]: 2021-02-22 18:08:24,773 - pyrogram.connection.connection - INFO - Connecting...
+2021-02-22T18:08:25.015551+00:00 app[worker.1]: 2021-02-22 18:08:25,015 - pyrogram.connection.connection - INFO - Connected! Production DC5 - IPv4 - TCPAbridgedO
+2021-02-22T18:08:25.016424+00:00 app[worker.1]: 2021-02-22 18:08:25,016 - pyrogram.session.session - INFO - NetworkTask started
+2021-02-22T18:08:25.805363+00:00 app[worker.1]: 2021-02-22 18:08:25,804 - pyrogram.session.session - INFO - NextSaltTask started
+2021-02-22T18:08:25.805685+00:00 app[worker.1]: 2021-02-22 18:08:25,805 - pyrogram.session.session - INFO - Next salt in 35m 15s (at 2021-02-22 18:43:41)
+2021-02-22T18:08:26.125611+00:00 app[worker.1]: 2021-02-22 18:08:26,125 - pyrogram.session.session - INFO - Session initialized: Layer 122
+2021-02-22T18:08:26.132446+00:00 app[worker.1]: 2021-02-22 18:08:26,127 - pyrogram.session.session - INFO - Device: CPython 3.8.6 - Pyrogram 1.1.13
+2021-02-22T18:08:26.132448+00:00 app[worker.1]: 2021-02-22 18:08:26,131 - pyrogram.session.session - INFO - System: Linux 4.4.0-1085-aws (EN)
+2021-02-22T18:08:26.132448+00:00 app[worker.1]: 2021-02-22 18:08:26,131 - pyrogram.session.session - INFO - Session started
+2021-02-22T18:08:26.132449+00:00 app[worker.1]: 2021-02-22 18:08:26,132 - pyrogram.session.session - INFO - PingTask started
+2021-02-22T18:08:33.764325+00:00 app[worker.1]: 2021-02-22 18:08:33,764 - pyrogram.syncer - INFO - Synced "senkuPyro" in 7.56836 ms
+2021-02-22T18:08:53.780367+00:00 app[worker.1]: 2021-02-22 18:08:53,780 - pyrogram.syncer - INFO - Synced "senkuPyro" in 12.3003 ms
+2021-02-22T18:09:13.793284+00:00 app[worker.1]: 2021-02-22 18:09:13,793 - pyrogram.syncer - INFO - Synced "senkuPyro" in 9.15766 ms
+2021-02-22T18:09:33.833642+00:00 app[worker.1]: 2021-02-22 18:09:33,833 - pyrogram.syncer - INFO - Synced "senkuPyro" in 36.0637 ms
+2021-02-22T18:09:53.846850+00:00 app[worker.1]: 2021-02-22 18:09:53,846 - pyrogram.syncer - INFO - Synced "senkuPyro" in 6.36744 ms
+2021-02-22T18:10:13.871511+00:00 app[worker.1]: 2021-02-22 18:10:13,871 - pyrogram.syncer - INFO - Synced "senkuPyro" in 8.91495 ms
+2021-02-22T18:10:33.896241+00:00 app[worker.1]: 2021-02-22 18:10:33,895 - pyrogram.syncer - INFO - Synced "senkuPyro" in 23.1891 ms
+2021-02-22T18:10:53.931953+00:00 app[worker.1]: 2021-02-22 18:10:53,931 - pyrogram.syncer - INFO - Synced "senkuPyro" in 32.7833 ms
+2021-02-22T18:11:13.942742+00:00 app[worker.1]: 2021-02-22 18:11:13,942 - pyrogram.syncer - INFO - Synced "senkuPyro" in 7.42769 ms
+2021-02-22T18:11:33.955493+00:00 app[worker.1]: 2021-02-22 18:11:33,955 - pyrogram.syncer - INFO - Synced "senkuPyro" in 10.6709 ms
+2021-02-22T18:11:53.987995+00:00 app[worker.1]: 2021-02-22 18:11:53,987 - pyrogram.syncer - INFO - Synced "senkuPyro" in 27.8676 ms
+2021-02-22T18:12:14.024057+00:00 app[worker.1]: 2021-02-22 18:12:14,023 - pyrogram.syncer - INFO - Synced "senkuPyro" in 19.6357 ms
+2021-02-22T18:12:34.064420+00:00 app[worker.1]: 2021-02-22 18:12:34,064 - pyrogram.syncer - INFO - Synced "senkuPyro" in 38.1153 ms
+2021-02-22T18:12:54.084874+00:00 app[worker.1]: 2021-02-22 18:12:54,084 - pyrogram.syncer - INFO - Synced "senkuPyro" in 17.1063 ms
+2021-02-22T18:13:14.094160+00:00 app[worker.1]: 2021-02-22 18:13:14,093 - pyrogram.syncer - INFO - Synced "senkuPyro" in 6.08921 ms
